@@ -56,3 +56,31 @@ nav ul li a:hover {
 }
 
 
+/* home page design */
+.home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+  gap: 50px;
+ 
+}
+.home-text .home-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #2c3e50;
+}
+.home-text .home-des {
+  margin-top: 10px;
+  font-weight: 400;
+  color: gray;
+}
+.home-img img {
+  width: 60%;
+  margin-left: 30px;
+}
+.scroll{
+    height: 1000px;
+}
+
