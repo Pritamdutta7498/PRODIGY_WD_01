@@ -84,3 +84,33 @@ nav ul li a:hover {
     height: 1000px;
 }
 
+/* responsive */
+@media (max-width: 760px) {
+
+  nav ul {
+    width: 100%;
+    background: #f5d234;
+    top: 80px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .home{
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 500px;
+  }
+  .home-img img{
+    width: 10rem;
+    margin: 0 auto;
+  }
+}
+
