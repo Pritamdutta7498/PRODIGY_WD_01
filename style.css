@@ -11,6 +11,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #2c3e50;
+  width: 100%;
+  margin:0 auto;
+
+  
 }
 
 /* nav-bar design */
@@ -64,6 +68,8 @@ nav ul li a:hover {
   justify-content: center;
   padding: 10rem;
   gap: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
  
 }
 .home-text .home-title {
